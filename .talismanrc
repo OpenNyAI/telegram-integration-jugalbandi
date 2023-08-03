@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: README.md
+  checksum: 39b5f31b33d6ddf750eed3219a2ecafa36552c15e2899f3bd74506ad5e114b19
+- filename: telegram_bot.py
+  checksum: c849329d7f7491bcdf513480eaea189c427f8b59d8ee8acca2562d64acd8e671
+version: "1.0"

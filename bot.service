@@ -1,0 +1,14 @@
+[Unit]
+Description=Bot-name
+
+[Service]
+Type=simple
+WorkingDirectory=/home/
+ExecStartPre=/bin/bash -c 'python3 -m pip install -r /home/requirements.txt'
+ExecStart=/usr/bin/python3 /home/telegram_bot.py
+User=root
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

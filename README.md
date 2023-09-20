@@ -13,6 +13,7 @@ start - Start the bot
 set_language - To choose language of your choice
 ```
 5. Install the necessary python packages for this bot by running this command `pip install -r requirements.txt`
-6. [OPTIONAL] Edit the url in get_query_response function in telegram.py to use other endpoints of your choice.
+6. [OPTIONAL] Edit the url in get_query_response function in telegram.py to use other [Jugalbandi](https://api.jugalbandi.ai/docs) endpoints of your choice.
 7. For running the bot in the local environment, run this command `python3 telegram_bot.py` and open the bot in Telegram to start querying.
-8. [OPTIONAL] For deploying the bot as a service in cloud (eg: Compute Engine in GCP), <b>bot.service</b> file can be used as a template file.
+8. To start querying the bot in Telegram, type `/start` to start the bot and choose the language from the given options. Then type the query in the language of your choice and the bot will respond with the answer.
+9. [OPTIONAL] For deploying the bot as a service in cloud (eg: Compute Engine in GCP), <b>bot.service</b> file can be used as a template file.

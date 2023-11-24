@@ -1,4 +1,4 @@
-# Jugalbandi-Accelerator-Telegram-Bot
+# Telegram-Integration-Jugalbandi
 
 This is an accelerator pack for deploying a telegram bot which uses Jugalbandi APIs.
 
